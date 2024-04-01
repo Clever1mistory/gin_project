@@ -17,6 +17,3 @@ blocks:
             - cache restore
             - checkout
             - cache store
-            - go get ./...
-            - go test ./...
-            - go build -v .
